@@ -1,0 +1,11 @@
+/* First Project is "Hello World!"*/
+
+#include <stdio.h> //Programımızı çalıştırmak için dahil etmemiz gereken kütüphane.
+
+int main()
+{
+  printf("Hello World!");
+
+  return 0;
+}
+
