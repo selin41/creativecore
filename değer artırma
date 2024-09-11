@@ -1,0 +1,16 @@
+/* DEĞER ARTIRMA */
+
+#include <stdio.h>
+
+int main()
+{
+  int i = 0;
+
+  printf("%d", i);
+  printf("%d", i++);  // Önce mevcut değer yazdırılır, sonra bir artırılır.
+  printf("%d", i);
+  printf("%d", ++i);  // Önce mevcut değer bir artırılır, sonra yeni değer yazdırılır.
+  printf("%d", i);
+
+  return 0; // "İşlem başarılı bir şekilde tamamlandı" anlamına gelmektedir.
+}
